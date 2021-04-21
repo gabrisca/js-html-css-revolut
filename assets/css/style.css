@@ -18,6 +18,22 @@
   float: right;
 }
 
+.mc_bgc_black {
+  background-color: black;
+}
+
+.mc_bgc_grey {
+  background-color: rgba(230, 230, 230, 0.8);
+}
+
+.mc_color_black {
+  color: black;
+}
+
+.mc_color_white {
+  color: white;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   height: 100vh;
@@ -44,7 +60,7 @@ header ul li a{
   color: #8C8E8F;
 }
 
-header ul li:hover a{
+header ul li a:hover{
   text-decoration: none;
   color: black;
 }
@@ -57,7 +73,7 @@ header ul li a:focus{
   /* width: 50%; */
   height: 100%;
   line-height: 70px;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   float: left;
 }
 
@@ -79,7 +95,7 @@ header ul li a:focus{
   height: 100%;
   line-height: 70px;
   text-align: right;
-  background-color: rgb(110, 226, 43);
+  /* background-color: rgb(110, 226, 43); */
   float: right;
 }
 
@@ -87,6 +103,48 @@ header ul li a:focus{
   margin-left: 30px;
 }
 
-.header_right button.btn {
-  
+.header_right .btn a{
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px;
 }
+
+.header_right ul li:hover a.mc_color_black{
+  background-color: rgba(230, 230, 230, 0.541);
+}
+
+.header_right ul li:hover a.mc_color_white{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.699);
+}
+
+/* DROPDOWN */
+.dropdown ul.list {
+  text-align: left;
+  padding: 0 10px;
+}
+
+.dropdown ul.list li{
+  margin-left: 0px;
+}
+
+.header_right ul li.with_dropdown{
+  position: relative;
+}
+
+.header_right ul li.with_dropdown{
+  position: relative;
+}
+
+.dropdown{
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.603);
+  width: 80px;
+  display: none;
+}
+
+.dropdown.active{
+  display: block;
+}
+
