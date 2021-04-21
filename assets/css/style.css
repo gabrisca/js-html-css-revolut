@@ -65,10 +65,6 @@ header ul li a:hover{
   color: black;
 }
 
-header ul li a:focus{
-  color: black;
-}
-
 .header_left {
   /* width: 50%; */
   height: 100%;
@@ -114,8 +110,8 @@ header ul li a:focus{
 }
 
 .header_right ul li:hover a.mc_color_white{
-  color: white;
   background-color: rgba(0, 0, 0, 0.699);
+  color: white;
 }
 
 /* DROPDOWN */
