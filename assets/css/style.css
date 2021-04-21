@@ -132,10 +132,6 @@ header ul li a:focus{
   position: relative;
 }
 
-.header_right ul li.with_dropdown{
-  position: relative;
-}
-
 .dropdown{
   position: absolute;
   background-color: white;
