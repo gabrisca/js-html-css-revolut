@@ -39,6 +39,20 @@ header ul li{
   display: inline-block;
 }
 
+header ul li a{
+  text-decoration: none;
+  color: #8C8E8F;
+}
+
+header ul li:hover a{
+  text-decoration: none;
+  color: black;
+}
+
+header ul li a:focus{
+  color: black;
+}
+
 .header_left {
   /* width: 50%; */
   height: 100%;
@@ -48,7 +62,16 @@ header ul li{
 }
 
 .header_left ul li {
-  margin-right: 20px;
+  margin-right: 30px;
+}
+
+.header_left ul li:nth-child(2) a{
+  color: black;
+}
+
+.header_left .logo_img{
+  height: 20px;
+  vertical-align: middle;
 }
 
 .header_right {
@@ -61,9 +84,9 @@ header ul li{
 }
 
 .header_right ul li {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
-.header_right button {
-  /* display: inline-block; */
+.header_right button.btn {
+  
 }
