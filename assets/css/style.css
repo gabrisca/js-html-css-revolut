@@ -140,7 +140,7 @@ header ul li a:focus{
   display: none;
 }
 
-.dropdown.active{
+.active{
   display: block;
 }
 
